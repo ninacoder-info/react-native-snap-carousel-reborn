@@ -1,90 +1,19 @@
-# react-native-snap-carousel
-
-![platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-brightgreen.svg?style=flat-square&colorB=191A17)
-[![npm](https://img.shields.io/npm/v/react-native-snap-carousel.svg?style=flat-square)](https://www.npmjs.com/package/react-native-snap-carousel)
-[![npm](https://img.shields.io/npm/dm/react-native-snap-carousel.svg?style=flat-square&colorB=007ec6)](https://www.npmjs.com/package/react-native-snap-carousel)
-<!-- [![github release](https://img.shields.io/github/release/meliorence/react-native-snap-carousel.svg?style=flat-square)](https://github.com/meliorence/react-native-snap-carousel/releases) -->
-[![github issues](https://img.shields.io/github/issues/meliorence/react-native-snap-carousel.svg?style=flat-square)](https://github.com/meliorence/react-native-snap-carousel/issues)
-[![github closed issues](https://img.shields.io/github/issues-closed/meliorence/react-native-snap-carousel.svg?style=flat-square&colorB=44cc11)](https://github.com/meliorence/react-native-snap-carousel/issues?q=is%3Aissue+is%3Aclosed)
-[![Issue Stats](https://img.shields.io/issuestats/i/github/meliorence/react-native-snap-carousel.svg?style=flat-square&colorB=44cc11)](http://github.com/meliorence/react-native-snap-carousel/issues)
-
------
------
-
-## ✨ Some great news for you, fellow plugin user!
-
-### 💡 **[Head over there now](https://github.com/meliorence/react-native-snap-carousel/blob/master/doc/VERSION_4.md)** to learn more about all the goodness that's coming your way.
-
------
------
-
-## Table of contents
-
-1. [Showcase](#showcase)
-1. [Usage](#usage)
-1. [Example](#example)
-1. [Props, methods and getters](#props-methods-and-getters)
-1. [Layouts and custom interpolations](#layouts-and-custom-interpolations)
-1. [`ParallaxImage` component](#parallaximage-component)
-1. [`Pagination` component](#pagination-component)
-1. [Tips and tricks](#tips-and-tricks)
-1. [Known issues](#known-issues)
-1. [Important note regarding Android](#important-note-regarding-android)
-1. [Important note regarding iOS](#important-note-regarding-ios)
-1. [Roadmap](#roadmap)
-1. [Credits](#credits)
-
-## Showcase
-
-### :raised_hands: New feature: layouts
-
-[Do you want to find out more?](#layouts-and-custom-interpolations)
-
-![react-native-snap-carousel default layout](https://i.imgur.com/e1WbZcu.gif)
-![react-native-snap-carousel tinder layout](https://i.imgur.com/R7OpEFs.gif)
-![react-native-snap-carousel stack layout](https://i.imgur.com/foMIGM2.gif)
-
-### Real-world examples
-
-These are live apps we've created that make heavy use of the plugin. Don't be shy, share yours if you've done something awesome with it!
-
-![react-native-snap-carousel aix](https://i.imgur.com/pPm0csc.gif)
-![react-native-snap-carousel aix](https://i.imgur.com/UFsPlz2.gif)
-
-![react-native-snap-carousel](https://i.imgur.com/Fope3uj.gif)
-![react-native-snap-carousel](https://i.imgur.com/WNOBYfl.gif)
-![react-native-snap-carousel](https://i.imgur.com/sK5DKaG.gif)
-
----
-
-## :handshake: Maintainers wanted
-
-Hey there,
-
-Creating and maintaining this plugin has been a fun ride that started in 2016. We thank you all for your appreciation and for making the most out of it! You've motivated us to spend countless hours improving the plugin, and made us happy to give back to the Open Source community.
-
-Put simply, we love this project. However we currently aren't able to give it the love it deserves and the care it requires. **If you have enough time and knowledge, and want to become a maintainer, please let us know**.
-
-### 💡 **[Just head there if you're interested](https://github.com/meliorence/react-native-snap-carousel/issues/632).**
-
-We're not abandoning the ship, but we need more people to help us keep it alive and well!
-
----
+# A fork of react-native-snap-carousel, why? because react-native-reanimated-carousel way to hard to use.
 
 ## Usage
 
 ```bash
-$ npm install --save react-native-snap-carousel
+$ npm install --save react-native-snap-carousel-reborn
 ```
 
 If you're using Typescript you should also install type definitions:
 ```bash
-$ npm install --save @types/react-native-snap-carousel
+$ npm install --save @types/react-native-snap-carousel-reborn
 ```
 
 
 ```javascript
-import Carousel from 'react-native-snap-carousel';
+import Carousel from 'react-native-snap-carousel-reborn';
 
 export class MyCarousel extends Component {
 
